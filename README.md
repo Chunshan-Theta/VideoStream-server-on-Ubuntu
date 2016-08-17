@@ -1,5 +1,3 @@
-# VideoStream-server-on-Ubuntu
-
 參考
 
 VideoStream

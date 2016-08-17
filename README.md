@@ -31,17 +31,17 @@ WebViewClient
 
 SSL Certificate 
 
--How To Create a SSL Certificate for Ubuntu 14.04
+	-How To Create a SSL Certificate for Ubuntu 14.04
 : https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
 
--SSL For Free 免費 SSL 憑證申請                         : https://free.com.tw/ssl-for-free/
+	-SSL For Free 免費 SSL 憑證申請                         : https://free.com.tw/ssl-for-free/
 
 
 Stream(WebRTC)
 
--Sending video and audio stream to server               : http://stackoverflow.com/questions/31094672/sending-video-and-audio-stream-to-server
+	-Sending video and audio stream to server               : http://stackoverflow.com/questions/31094672/sending-video-and-audio-stream-to-server
 
--Using Python 2.7 To Stream Video In A Web Browser      : http://stackoverflow.com/questions/29108884/using-python-2-7-to-stream-video-in-a-web-browser
+	-Using Python 2.7 To Stream Video In A Web Browser      : http://stackoverflow.com/questions/29108884/using-python-2-7-to-stream-video-in-a-web-browser
 
--simple python client/server socket binary stream       : https://gist.github.com/marvin/4318413
+	-simple python client/server socket binary stream       : https://gist.github.com/marvin/4318413
 

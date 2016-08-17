@@ -15,6 +15,8 @@ VideoStream
 	-關於Pi Camera和即時串流(MJPG Stream Server)       : https://dotblogs.com.tw/bowwowxx/2015/06/08/151511
 	
 
+
+
 WebViewClient
 
 -Xamarin.iOS				: https://developer.xamarin.com/recipes/ios/content_controls/web_view/load_a_web_page/
@@ -29,11 +31,19 @@ WebViewClient
 
 
 
+
+
+
+
 SSL Certificate 
 
 	-How To Create a SSL Certificate for Ubuntu 14.04  : https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
 
 	-SSL For Free 免費 SSL 憑證申請                         : https://free.com.tw/ssl-for-free/
+
+
+
+
 
 
 Stream(WebRTC)

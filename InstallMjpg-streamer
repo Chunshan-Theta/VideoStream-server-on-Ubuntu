@@ -1,15 +1,13 @@
 我這裡是在pi上裝svn直接裝：
-sudo apt-get install subversion
+1.sudo apt-get install subversion
 
 接著把最新版的streamer抓下來(pi做這件事情會有點小慢)
-sudo svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
+2.sudo svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
 
-sudo apt-get install libjpeg8-dev imagemagick
+3.sudo apt-get install libjpeg8-dev imagemagick
 
-cd mjpg-streamer;sudo make
+4.cd mjpg-streamer;sudo make
+4.1 : videodev.h : No such file -> sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 
-videodev.h : No such file -> sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
-
-./mjpg_streamer -i “./input_uvc.so" -o “./output_http.so -w ./www"
-
-./mjpgstreamer -i "./inputuvc.so -d /dev/video0 -n -y f 15 -r 640x480" -o "./output_http.so /www"
+5:./mjpg_streamer -i “./input_uvc.so" -o “./output_http.so -w ./www"
+5.1:./mjpgstreamer -i "./inputuvc.so -d /dev/video0 -n -y f 15 -r 640x480" -o "./output_http.so /www"

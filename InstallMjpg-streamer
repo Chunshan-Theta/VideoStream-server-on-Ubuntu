@@ -10,4 +10,4 @@
 4.1 : videodev.h : No such file -> sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 
 5:./mjpg_streamer -i “./input_uvc.so" -o “./output_http.so -w ./www"
-5.1:./mjpgstreamer -i "./inputuvc.so -d /dev/video0 -n -y f 15 -r 640x480" -o "./output_http.so /www"
+5.1:./mjpgstreamer -i "./inputuvc.so -d /dev/video0  -y f 15 -r 640x480 " -o "./output_http.so ./www"

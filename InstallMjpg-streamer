@@ -1,13 +1,14 @@
-我這裡是在pi上裝svn直接裝：
-1.sudo apt-get install subversion
+Mjpg-stream
 
-接著把最新版的streamer抓下來(pi做這件事情會有點小慢)
-2.sudo svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
 
-3.sudo apt-get install libjpeg8-dev imagemagick
+Install
+(1)sudo apt-get install lamp-server^
+(2)sudo apt-get install subversion
+(3)svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
+(4)sudo apt-get install libjpeg8-dev imagemagick
+(5)cd mjpg-streamer
+(6)sudo make
 
-4.cd mjpg-streamer;sudo make
-4.1 : videodev.h : No such file -> sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
-
-5:./mjpg_streamer -i “./input_uvc.so" -o “./output_http.so -w ./www"
-5.1:./mjpgstreamer -i "./inputuvc.so -d /dev/video0  -y f 15 -r 640x480 " -o "./output_http.so ./www"
+quickstart:
+(1)./mjpg_streamer -i "./input_uvc.so -d /dev/video0 -y f 15 -r 640x480" -o "./output_http.so -n -w ./www"
+(2)https:// IP address:8080

@@ -12,3 +12,5 @@ Install
 quickstart:
 (1)./mjpg_streamer -i "./input_uvc.so -d /dev/video0 -y f 15 -r 640x480" -o "./output_http.so -n -w ./www"
 (2)https:// IP address:8080
+
+以上裝在VM會爆掉喔～
